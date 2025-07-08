@@ -25,6 +25,19 @@
 
 }
 
+.text-center{
+
+    text-align: center;
+    padding: 0 115px;
+    
+}
+
+.section-description{
+
+    margin-bottom: 50px;
+
+}
+
 .dark-2{
     color: #474747;
 }
@@ -188,4 +201,37 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #757575;
+}
+
+/* skills-section */
+
+.skills-container{
+
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+
+}
+
+.skill-title{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.skill-ddescription{
+
+    text-decoration: justify;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.skill{
+
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
