@@ -95,6 +95,7 @@ nav ul{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    padding-top: 10px;
     /* margin: 35px 71px 25px 25px; */
 }
 
@@ -105,6 +106,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     margin: 0 38px 0 200px;
+    /* padding-top: 10px; */
 
 }
 
@@ -139,8 +141,8 @@ nav ul{
 
     width: 580px;
 
-
 }
+
 
 /* about me section */
 
@@ -210,6 +212,7 @@ main{
     display: flex;
     gap: 24px;
     padding: 30px;
+    margin-bottom: 130px;
 
 }
 
@@ -233,5 +236,106 @@ main{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+/* section */
+
+.section-title{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 110px;
+
+}
+
+/*    resume section */
+
+.resume-container{
+
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.experience-description{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.experience-sub-title{
+
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+
+}
+
+.experience-title{
+
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    margin-top: 30px;
+
+}
+
+.btn{
+    margin-bottom: 130px;
+}
+
+/* footer styles */
+
+footer{
+
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3;
+    padding: 130px 230px;
+
+}
+
+.footer-column{
+
+    width: 50%;
+
+}
+
+.footer-description{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.social-links a{
+
+    margin-right: 25px;
+
+}
+
+.secction-title{
+
+    margin-bottom: 28px;
+
+}
+
+.contact-form input[type="text"], input[type="email"], textarea{
+
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 18px 0px 18px 30px;
+    width: 100%;
+    border: 0;
+
 
 }
